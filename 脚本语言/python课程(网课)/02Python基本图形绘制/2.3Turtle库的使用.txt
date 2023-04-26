@@ -1,0 +1,29 @@
+Turtle基本介绍
+
+标准库
+Python计算生态 = 标准库 + 第三方库
+-标准库：编译器自带
+-第三方库：需install
+-库Library、包Package、模块Model、统称模块
+
+Turtle的绘图窗体
+turtle.setup(width,height,startx,starty)
+
+Turtle空间坐标体系
+turtle.goto(x,y)
+turtle.fd(d) 像海龟的正前方行进,d是前进长度
+turtle.bk(d)像海龟的正后方前进
+turtle.circle(r,angle)曲线运行
+
+Turtle角度坐标体系
+turtle.seth(angle)改变海龟行进角度
+turtle.left(angle)
+turtle.right(angle)
+
+RGB色彩模式
+-三通道
+-RGB红绿蓝
+-RGB每色取值范围0-255整数范围或0-1小数
+turtle.colormode(mode)
+
+

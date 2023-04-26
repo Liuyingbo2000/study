@@ -1,0 +1,42 @@
+库引用
+import <库名>
+from <库名> import *
+import <库名> as <别名>
+两种方法比较
+    出现函数重名
+
+turtle画笔控制函数
+
+turtle.penup() 别名turtle.pu()
+    抬起画笔，海龟在飞行
+
+turtle.pendown()别名turtle.pd()
+    落下画笔
+
+turtle.pensize(width)别名turtle.width(width)
+    画笔设置后一直有效，直到下次重新设置
+    画笔宽度，海龟的腰围
+
+turtle.pencolor(color) color为颜色字符串或r,g,b值
+    画笔颜色，海龟在涂装
+    color
+        颜色字符串 turtle.pencolor("purple")
+        RGB值
+
+turtle.circle()
+    运动控制函数
+
+turtle.seth(angle)
+    改变行进方向
+    angle角度
+
+循环语句与range()函数
+for i range(5):
+    print("hellow:",i)
+加逗号可以输出hellow: i中间有个空格
+
+range(n)产生循环计数序列
+range(m,n)
+
+
+
