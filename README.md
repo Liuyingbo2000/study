@@ -6,7 +6,7 @@
                                 2：网课：python语言程序设计，网课地址：https://www.icourse163.org/course/BIT-268001?outVendor=zw_mooc_pclszykctj_#/info
  
  深度学习目前学：1：Python机器学习基础教程
-                 2： 深度学习torch李沐
+               2： 深度学习torch李沐
                
                
                
