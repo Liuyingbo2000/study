@@ -13,5 +13,34 @@ x in s
 字符串处理函数
 len(x)
 str(x)转成字符串
-hex()
-oct()
+hex(x)十六进制
+oct(x)八进制
+chr(u)u为Unicode编码，返回对应的字符
+ord(x)x为字符，返回对应的unicode编码
+u为Unicode编码，返回对应的字符      
+        Python字符串的编码方式
+            -统一字符编码，即覆盖几乎所有的字符编码方式
+            -从0到111411（OX10FFFF）空间，每个编码对应一个字符
+            
+        一些有趣的列子
+            “1 + 1 = 2” +chr(10004)
+            ' 1 + 1 = 2 √'
+字符串处理方法（常用）
+    str.lower() / str.upper()
+    str.split(sep=None)
+    str.count(s)
+    str.replace(old,new)
+    str.center(width[,fillchar])
+    str.strip(chars)
+    str.join(iter)
+
+字符串格式化
+    {}
+    槽
+    {<参数符号>:<格式控制标记>}
+    : <填充> <对齐> <宽度> <，> <,精度 >  <类型>
+        "{0:=^20}".format("python)
+        "{0:,.2f}".format(12345.6789)
+        
+
+
